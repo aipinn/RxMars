@@ -16,6 +16,12 @@
 		3D10D8D02245FE0E0018C8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D10D8CE2245FE0E0018C8B0 /* LaunchScreen.storyboard */; };
 		3D10D8DB2245FE0E0018C8B0 /* RxMarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8DA2245FE0E0018C8B0 /* RxMarsTests.swift */; };
 		3D10D8E62245FE0E0018C8B0 /* RxMarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8E52245FE0E0018C8B0 /* RxMarsUITests.swift */; };
+		3D10D8F5224608E60018C8B0 /* RMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8F3224608E60018C8B0 /* RMViewController.swift */; };
+		3D10D8F6224608E60018C8B0 /* RMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D10D8F4224608E60018C8B0 /* RMViewController.xib */; };
+		3D10D8F82246244C0018C8B0 /* RMProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8F72246244C0018C8B0 /* RMProductViewModel.swift */; };
+		3D10D8FA224624C20018C8B0 /* RMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8F9224624C20018C8B0 /* RMModel.swift */; };
+		3D10D8FC224629600018C8B0 /* RMProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8FB224629600018C8B0 /* RMProductViewController.swift */; };
+		3D10D8FE22462AC20018C8B0 /* RMSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8FD22462AC20018C8B0 /* RMSwift.swift */; };
 		E0398AEECEB1BA3BCC89CEAF /* Pods_RxMarsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEECC6CDB5309EC36E07D194 /* Pods_RxMarsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +56,12 @@
 		3D10D8E12245FE0E0018C8B0 /* RxMarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D10D8E52245FE0E0018C8B0 /* RxMarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMarsUITests.swift; sourceTree = "<group>"; };
 		3D10D8E72245FE0E0018C8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D10D8F3224608E60018C8B0 /* RMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMViewController.swift; sourceTree = "<group>"; };
+		3D10D8F4224608E60018C8B0 /* RMViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RMViewController.xib; sourceTree = "<group>"; };
+		3D10D8F72246244C0018C8B0 /* RMProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMProductViewModel.swift; sourceTree = "<group>"; };
+		3D10D8F9224624C20018C8B0 /* RMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMModel.swift; sourceTree = "<group>"; };
+		3D10D8FB224629600018C8B0 /* RMProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMProductViewController.swift; sourceTree = "<group>"; };
+		3D10D8FD22462AC20018C8B0 /* RMSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSwift.swift; sourceTree = "<group>"; };
 		5F0F875CDD0E4A772313F2C0 /* Pods-RxMars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMars/Pods-RxMars.debug.xcconfig"; sourceTree = "<group>"; };
 		A05A7E8963591D349F57FEF2 /* Pods-RxMars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMars.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMars/Pods-RxMars.release.xcconfig"; sourceTree = "<group>"; };
 		C7135C14B5243D480C81350F /* Pods-RxMarsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMarsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMarsTests/Pods-RxMarsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +155,12 @@
 				3D10D8CC2245FE0E0018C8B0 /* Assets.xcassets */,
 				3D10D8CE2245FE0E0018C8B0 /* LaunchScreen.storyboard */,
 				3D10D8D12245FE0E0018C8B0 /* Info.plist */,
+				3D10D8F3224608E60018C8B0 /* RMViewController.swift */,
+				3D10D8F4224608E60018C8B0 /* RMViewController.xib */,
+				3D10D8F72246244C0018C8B0 /* RMProductViewModel.swift */,
+				3D10D8F9224624C20018C8B0 /* RMModel.swift */,
+				3D10D8FB224629600018C8B0 /* RMProductViewController.swift */,
+				3D10D8FD22462AC20018C8B0 /* RMSwift.swift */,
 			);
 			path = RxMars;
 			sourceTree = "<group>";
@@ -276,6 +294,7 @@
 				3D10D8D02245FE0E0018C8B0 /* LaunchScreen.storyboard in Resources */,
 				3D10D8CD2245FE0E0018C8B0 /* Assets.xcassets in Resources */,
 				3D10D8CB2245FE0C0018C8B0 /* Main.storyboard in Resources */,
+				3D10D8F6224608E60018C8B0 /* RMViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,10 +347,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RxMars/Pods-RxMars-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -339,10 +358,10 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,8 +420,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D10D8F5224608E60018C8B0 /* RMViewController.swift in Sources */,
 				3D10D8C82245FE0C0018C8B0 /* ViewController.swift in Sources */,
 				3D10D8C62245FE0C0018C8B0 /* AppDelegate.swift in Sources */,
+				3D10D8FC224629600018C8B0 /* RMProductViewController.swift in Sources */,
+				3D10D8FE22462AC20018C8B0 /* RMSwift.swift in Sources */,
+				3D10D8FA224624C20018C8B0 /* RMModel.swift in Sources */,
+				3D10D8F82246244C0018C8B0 /* RMProductViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
