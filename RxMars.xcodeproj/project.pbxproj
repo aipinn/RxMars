@@ -22,6 +22,9 @@
 		3D10D8FA224624C20018C8B0 /* RMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8F9224624C20018C8B0 /* RMModel.swift */; };
 		3D10D8FC224629600018C8B0 /* RMProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8FB224629600018C8B0 /* RMProductViewController.swift */; };
 		3D10D8FE22462AC20018C8B0 /* RMSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8FD22462AC20018C8B0 /* RMSwift.swift */; };
+		BCFECC9C22475E1900F15A3A /* RMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFECC9A22475E1900F15A3A /* RMLoginViewController.swift */; };
+		BCFECC9D22475E1900F15A3A /* RMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFECC9B22475E1900F15A3A /* RMLoginViewController.xib */; };
+		BCFECCA12247D1DE00F15A3A /* Rxswift.mindnode in Resources */ = {isa = PBXBuildFile; fileRef = BCFECCA02247D1DE00F15A3A /* Rxswift.mindnode */; };
 		E0398AEECEB1BA3BCC89CEAF /* Pods_RxMarsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEECC6CDB5309EC36E07D194 /* Pods_RxMarsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +67,10 @@
 		3D10D8FD22462AC20018C8B0 /* RMSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSwift.swift; sourceTree = "<group>"; };
 		5F0F875CDD0E4A772313F2C0 /* Pods-RxMars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMars/Pods-RxMars.debug.xcconfig"; sourceTree = "<group>"; };
 		A05A7E8963591D349F57FEF2 /* Pods-RxMars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMars.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMars/Pods-RxMars.release.xcconfig"; sourceTree = "<group>"; };
+		BCFECC9A22475E1900F15A3A /* RMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLoginViewController.swift; sourceTree = "<group>"; };
+		BCFECC9B22475E1900F15A3A /* RMLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RMLoginViewController.xib; sourceTree = "<group>"; };
+		BCFECC9F22478ACA00F15A3A /* RxMars.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxMars.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BCFECCA02247D1DE00F15A3A /* Rxswift.mindnode */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Rxswift.mindnode; sourceTree = "<group>"; };
 		C7135C14B5243D480C81350F /* Pods-RxMarsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMarsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMarsTests/Pods-RxMarsTests.release.xcconfig"; sourceTree = "<group>"; };
 		CC41CBB5A2CA2D3B08F85F22 /* Pods-RxMarsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMarsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMarsUITests/Pods-RxMarsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DEECC6CDB5309EC36E07D194 /* Pods_RxMarsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMarsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +134,8 @@
 		3D10D8B92245FE0C0018C8B0 = {
 			isa = PBXGroup;
 			children = (
+				BCFECCA02247D1DE00F15A3A /* Rxswift.mindnode */,
+				BCFECC9F22478ACA00F15A3A /* RxMars.playground */,
 				3D10D8C42245FE0C0018C8B0 /* RxMars */,
 				3D10D8D92245FE0E0018C8B0 /* RxMarsTests */,
 				3D10D8E42245FE0E0018C8B0 /* RxMarsUITests */,
@@ -149,6 +158,7 @@
 		3D10D8C42245FE0C0018C8B0 /* RxMars */ = {
 			isa = PBXGroup;
 			children = (
+				3D10D8FD22462AC20018C8B0 /* RMSwift.swift */,
 				3D10D8C52245FE0C0018C8B0 /* AppDelegate.swift */,
 				3D10D8C72245FE0C0018C8B0 /* ViewController.swift */,
 				3D10D8C92245FE0C0018C8B0 /* Main.storyboard */,
@@ -160,7 +170,8 @@
 				3D10D8F72246244C0018C8B0 /* RMProductViewModel.swift */,
 				3D10D8F9224624C20018C8B0 /* RMModel.swift */,
 				3D10D8FB224629600018C8B0 /* RMProductViewController.swift */,
-				3D10D8FD22462AC20018C8B0 /* RMSwift.swift */,
+				BCFECC9A22475E1900F15A3A /* RMLoginViewController.swift */,
+				BCFECC9B22475E1900F15A3A /* RMLoginViewController.xib */,
 			);
 			path = RxMars;
 			sourceTree = "<group>";
@@ -292,7 +303,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D10D8D02245FE0E0018C8B0 /* LaunchScreen.storyboard in Resources */,
+				BCFECC9D22475E1900F15A3A /* RMLoginViewController.xib in Resources */,
 				3D10D8CD2245FE0E0018C8B0 /* Assets.xcassets in Resources */,
+				BCFECCA12247D1DE00F15A3A /* Rxswift.mindnode in Resources */,
 				3D10D8CB2245FE0C0018C8B0 /* Main.storyboard in Resources */,
 				3D10D8F6224608E60018C8B0 /* RMViewController.xib in Resources */,
 			);
@@ -425,6 +438,7 @@
 				3D10D8C62245FE0C0018C8B0 /* AppDelegate.swift in Sources */,
 				3D10D8FC224629600018C8B0 /* RMProductViewController.swift in Sources */,
 				3D10D8FE22462AC20018C8B0 /* RMSwift.swift in Sources */,
+				BCFECC9C22475E1900F15A3A /* RMLoginViewController.swift in Sources */,
 				3D10D8FA224624C20018C8B0 /* RMModel.swift in Sources */,
 				3D10D8F82246244C0018C8B0 /* RMProductViewModel.swift in Sources */,
 			);

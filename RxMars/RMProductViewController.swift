@@ -13,7 +13,7 @@ import RxSwift
 class RMProductViewController: UIViewController {
     var tableView: UITableView?
     let vm = RMProductViewModel()
-    let disposeBag = DisposeBag()
+    fileprivate let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
         super.viewDidLoad()

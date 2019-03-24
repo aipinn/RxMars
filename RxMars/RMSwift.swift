@@ -16,3 +16,5 @@ import RxCocoa
 let kScreenBounds = UIScreen.main.bounds
 let kScreenWidth = kScreenBounds.width
 let kScreenHeight = kScreenBounds.height
+
+let kHttpOrgGet = "http://httpbin.org/get"
