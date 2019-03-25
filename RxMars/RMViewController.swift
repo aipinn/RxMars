@@ -94,8 +94,10 @@ class RMViewController: UIViewController {
          navigationController?.pushViewController(RMProductViewController(), animated: true)
         
     }
+    @IBAction func imagePickerAction(_ sender: Any) {
+        navigationController?.pushViewController(RMImagePickerViewController(), animated: true)
+    }
     
-
 }
 
 //MARK: 创建自己的被观察者Observable

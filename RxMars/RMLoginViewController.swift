@@ -27,6 +27,21 @@ class RMLoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //UITextField 可以是被观察者 也可以是观察者
+        
+        //被观察者
+        let observable = username.rx.text
+        observable.subscribe(onNext: { text in
+            if let txt = text {
+                print("--"+txt)
+            }
+        })
+        .disposed(by: disposeBag)
+        
+        //观察者
+//        let observer = username.rx.text
+//        let text: Observable<String?> = ...
+//        text.bind(to: observer)
         
         let usernameValid = username.rx.text.orEmpty
             .map{ $0.count >= minUsernameLength }

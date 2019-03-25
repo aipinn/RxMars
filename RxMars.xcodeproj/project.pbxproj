@@ -22,6 +22,10 @@
 		3D10D8FA224624C20018C8B0 /* RMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8F9224624C20018C8B0 /* RMModel.swift */; };
 		3D10D8FC224629600018C8B0 /* RMProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8FB224629600018C8B0 /* RMProductViewController.swift */; };
 		3D10D8FE22462AC20018C8B0 /* RMSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8FD22462AC20018C8B0 /* RMSwift.swift */; };
+		3D10D9022248DC5C0018C8B0 /* RMImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D9002248DC5C0018C8B0 /* RMImagePickerViewController.swift */; };
+		3D10D9032248DC5C0018C8B0 /* RMImagePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D10D9012248DC5C0018C8B0 /* RMImagePickerViewController.xib */; };
+		3D10D9052248F3A50018C8B0 /* UIImagePickerController+RxCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D9042248F3A50018C8B0 /* UIImagePickerController+RxCreate.swift */; };
+		3D10D9072248F9300018C8B0 /* UIImagePickerController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D9062248F9300018C8B0 /* UIImagePickerController+Rx.swift */; };
 		BCFECC9C22475E1900F15A3A /* RMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFECC9A22475E1900F15A3A /* RMLoginViewController.swift */; };
 		BCFECC9D22475E1900F15A3A /* RMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFECC9B22475E1900F15A3A /* RMLoginViewController.xib */; };
 		BCFECCA12247D1DE00F15A3A /* Rxswift.mindnode in Resources */ = {isa = PBXBuildFile; fileRef = BCFECCA02247D1DE00F15A3A /* Rxswift.mindnode */; };
@@ -65,6 +69,10 @@
 		3D10D8F9224624C20018C8B0 /* RMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMModel.swift; sourceTree = "<group>"; };
 		3D10D8FB224629600018C8B0 /* RMProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMProductViewController.swift; sourceTree = "<group>"; };
 		3D10D8FD22462AC20018C8B0 /* RMSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSwift.swift; sourceTree = "<group>"; };
+		3D10D9002248DC5C0018C8B0 /* RMImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMImagePickerViewController.swift; sourceTree = "<group>"; };
+		3D10D9012248DC5C0018C8B0 /* RMImagePickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RMImagePickerViewController.xib; sourceTree = "<group>"; };
+		3D10D9042248F3A50018C8B0 /* UIImagePickerController+RxCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+RxCreate.swift"; sourceTree = "<group>"; };
+		3D10D9062248F9300018C8B0 /* UIImagePickerController+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImagePickerController+Rx.swift"; path = "../../../Downloads/RxSwift-master/RxExample/Extensions/UIImagePickerController+Rx.swift"; sourceTree = "<group>"; };
 		5F0F875CDD0E4A772313F2C0 /* Pods-RxMars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMars/Pods-RxMars.debug.xcconfig"; sourceTree = "<group>"; };
 		A05A7E8963591D349F57FEF2 /* Pods-RxMars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMars.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMars/Pods-RxMars.release.xcconfig"; sourceTree = "<group>"; };
 		BCFECC9A22475E1900F15A3A /* RMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLoginViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +180,10 @@
 				3D10D8FB224629600018C8B0 /* RMProductViewController.swift */,
 				BCFECC9A22475E1900F15A3A /* RMLoginViewController.swift */,
 				BCFECC9B22475E1900F15A3A /* RMLoginViewController.xib */,
+				3D10D9002248DC5C0018C8B0 /* RMImagePickerViewController.swift */,
+				3D10D9012248DC5C0018C8B0 /* RMImagePickerViewController.xib */,
+				3D10D9062248F9300018C8B0 /* UIImagePickerController+Rx.swift */,
+				3D10D9042248F3A50018C8B0 /* UIImagePickerController+RxCreate.swift */,
 			);
 			path = RxMars;
 			sourceTree = "<group>";
@@ -307,6 +319,7 @@
 				3D10D8CD2245FE0E0018C8B0 /* Assets.xcassets in Resources */,
 				BCFECCA12247D1DE00F15A3A /* Rxswift.mindnode in Resources */,
 				3D10D8CB2245FE0C0018C8B0 /* Main.storyboard in Resources */,
+				3D10D9032248DC5C0018C8B0 /* RMImagePickerViewController.xib in Resources */,
 				3D10D8F6224608E60018C8B0 /* RMViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,9 +450,12 @@
 				3D10D8C82245FE0C0018C8B0 /* ViewController.swift in Sources */,
 				3D10D8C62245FE0C0018C8B0 /* AppDelegate.swift in Sources */,
 				3D10D8FC224629600018C8B0 /* RMProductViewController.swift in Sources */,
+				3D10D9072248F9300018C8B0 /* UIImagePickerController+Rx.swift in Sources */,
 				3D10D8FE22462AC20018C8B0 /* RMSwift.swift in Sources */,
+				3D10D9022248DC5C0018C8B0 /* RMImagePickerViewController.swift in Sources */,
 				BCFECC9C22475E1900F15A3A /* RMLoginViewController.swift in Sources */,
 				3D10D8FA224624C20018C8B0 /* RMModel.swift in Sources */,
+				3D10D9052248F3A50018C8B0 /* UIImagePickerController+RxCreate.swift in Sources */,
 				3D10D8F82246244C0018C8B0 /* RMProductViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -546,7 +562,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -601,7 +617,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -617,8 +633,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4B2WMR5XE5;
+				DEVELOPMENT_TEAM = 8K5FMWVMXX;
 				INFOPLIST_FILE = RxMars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -636,8 +653,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4B2WMR5XE5;
+				DEVELOPMENT_TEAM = 8K5FMWVMXX;
 				INFOPLIST_FILE = RxMars/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

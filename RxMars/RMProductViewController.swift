@@ -15,6 +15,9 @@ class RMProductViewController: UIViewController {
     let vm = RMProductViewModel()
     fileprivate let disposeBag = DisposeBag()
     
+    //Varible
+    var model: Variable<RMProduct?> = Variable(nil)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -31,6 +34,13 @@ class RMProductViewController: UIViewController {
         tb.rx.modelSelected(RMProduct.self).subscribe { product in
             print(product)
         }.disposed(by: disposeBag)
+        
+        //Varible
+        model.asObservable()
+            .subscribe{ model in
+            print(model)
+        }.disposed(by: disposeBag)
+        model.value = RMProduct(name: "meta", price: "1234")
     }
     
 
