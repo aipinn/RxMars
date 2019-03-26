@@ -15,7 +15,7 @@
                 <outlet property="cameraButton" destination="fTh-zk-lqF" id="V0W-6F-B7P"/>
                 <outlet property="cropButton" destination="Kvg-7T-Ts7" id="IKa-rB-WC2"/>
                 <outlet property="galleryButton" destination="s6E-wL-4pX" id="VXo-en-3kx"/>
-                <outlet property="imageView" destination="7T6-7l-95l" id="vJD-Q3-BOD"/>
+                <outlet property="imageView" destination="7T6-7l-95l" id="mFP-25-Oph"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
