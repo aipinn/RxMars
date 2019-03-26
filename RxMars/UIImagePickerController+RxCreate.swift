@@ -1,5 +1,5 @@
 //
-//  UIImagePickerController+Rx.swift
+//  UIImagePickerController+RxCreate.swift
 //  RxMars
 //
 //  Created by emoji on 2019/3/25.
@@ -9,6 +9,7 @@
 import Foundation
 import RxSwift
 import RxCocoa
+import Photos
 
 func dismissViewController(_ viewController: UIViewController, animated: Bool) {
     if viewController.isBeingDismissed || viewController.isBeingPresented {

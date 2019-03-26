@@ -18,10 +18,14 @@ class RMViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //test()
+    }
+
+    func test() {
         let _ = myJust(0).subscribe(onNext: { n in
             print(n)
         })
-
+        
         let seq = myFrom([1,2,3])
         let _ = seq.subscribe(onNext: { e in
             print(e)
@@ -46,16 +50,16 @@ class RMViewController: UIViewController {
             let sub1 = counter.subscribe(onNext: { n in
                 print("sub1 \(n)")
             })
-
+            
             let sub2 = counter.subscribe(onNext: { n in
                 print("sub2 \(n)")
             })
-
+            
             Thread.sleep(forTimeInterval: 5)
             sub1.dispose()
             Thread.sleep(forTimeInterval: 5)
             sub2.dispose()
-
+            
         }
         
         do {
@@ -64,11 +68,11 @@ class RMViewController: UIViewController {
             let sub1 = counter.subscribe(onNext: { n in
                 print("sub1 \(n)")
             })
-
+            
             let sub2 = counter.subscribe(onNext: { n in
                 print("sub2 \(n)")
             })
-
+            
             Thread.sleep(forTimeInterval: 0.5)
             sub1.dispose()
             Thread.sleep(forTimeInterval: 0.5)
@@ -83,21 +87,20 @@ class RMViewController: UIViewController {
                 print("Error: ", error)
             }).disposed(by: DisposeBag())
         
-        
     }
-
+    
     @IBAction func loginAction(_ sender: Any) {
         navigationController?.pushViewController(RMLoginViewController(), animated: true)
-        
     }
     @IBAction func productAction(_ sender: Any) {
          navigationController?.pushViewController(RMProductViewController(), animated: true)
-        
     }
     @IBAction func imagePickerAction(_ sender: Any) {
         navigationController?.pushViewController(RMImagePickerViewController(), animated: true)
     }
-    
+    @IBAction func liteAction(_ sender: Any) {
+        navigationController?.pushViewController(RMLiteViewController(), animated: true)
+    }
 }
 
 //MARK: 创建自己的被观察者Observable

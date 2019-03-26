@@ -44,6 +44,14 @@
                         <action selector="imagePickerAction:" destination="-1" eventType="touchUpInside" id="x5W-l7-mL6"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hLd-zZ-d5e">
+                    <rect key="frame" x="168" y="252" width="30" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Lite"/>
+                    <connections>
+                        <action selector="liteAction:" destination="-1" eventType="touchUpInside" id="CwS-F9-RzH"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

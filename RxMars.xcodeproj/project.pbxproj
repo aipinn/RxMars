@@ -27,6 +27,8 @@
 		3D10D9092249C4B20018C8B0 /* UIImagePickerController+RxCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D9082249C4B20018C8B0 /* UIImagePickerController+RxCreate.swift */; };
 		3D10D90B2249C4D10018C8B0 /* UIImagePickerController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D90A2249C4D10018C8B0 /* UIImagePickerController+Rx.swift */; };
 		3D10D90D224A59E30018C8B0 /* LLVM.mindnode in Resources */ = {isa = PBXBuildFile; fileRef = 3D10D90C224A59E20018C8B0 /* LLVM.mindnode */; };
+		BC172240224A78FE00B37BDE /* RMLiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC17223E224A78FE00B37BDE /* RMLiteViewController.swift */; };
+		BC172241224A78FE00B37BDE /* RMLiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC17223F224A78FE00B37BDE /* RMLiteViewController.xib */; };
 		BCFECC9C22475E1900F15A3A /* RMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFECC9A22475E1900F15A3A /* RMLoginViewController.swift */; };
 		BCFECC9D22475E1900F15A3A /* RMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFECC9B22475E1900F15A3A /* RMLoginViewController.xib */; };
 		BCFECCA12247D1DE00F15A3A /* Rxswift.mindnode in Resources */ = {isa = PBXBuildFile; fileRef = BCFECCA02247D1DE00F15A3A /* Rxswift.mindnode */; };
@@ -77,6 +79,8 @@
 		3D10D90C224A59E20018C8B0 /* LLVM.mindnode */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LLVM.mindnode; sourceTree = "<group>"; };
 		5F0F875CDD0E4A772313F2C0 /* Pods-RxMars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMars/Pods-RxMars.debug.xcconfig"; sourceTree = "<group>"; };
 		A05A7E8963591D349F57FEF2 /* Pods-RxMars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMars.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMars/Pods-RxMars.release.xcconfig"; sourceTree = "<group>"; };
+		BC17223E224A78FE00B37BDE /* RMLiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLiteViewController.swift; sourceTree = "<group>"; };
+		BC17223F224A78FE00B37BDE /* RMLiteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RMLiteViewController.xib; sourceTree = "<group>"; };
 		BCFECC9A22475E1900F15A3A /* RMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLoginViewController.swift; sourceTree = "<group>"; };
 		BCFECC9B22475E1900F15A3A /* RMLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RMLoginViewController.xib; sourceTree = "<group>"; };
 		BCFECC9F22478ACA00F15A3A /* RxMars.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxMars.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -187,6 +191,8 @@
 				3D10D9012248DC5C0018C8B0 /* RMImagePickerViewController.xib */,
 				3D10D9082249C4B20018C8B0 /* UIImagePickerController+RxCreate.swift */,
 				3D10D90A2249C4D10018C8B0 /* UIImagePickerController+Rx.swift */,
+				BC17223E224A78FE00B37BDE /* RMLiteViewController.swift */,
+				BC17223F224A78FE00B37BDE /* RMLiteViewController.xib */,
 			);
 			path = RxMars;
 			sourceTree = "<group>";
@@ -320,6 +326,7 @@
 				3D10D8D02245FE0E0018C8B0 /* LaunchScreen.storyboard in Resources */,
 				BCFECC9D22475E1900F15A3A /* RMLoginViewController.xib in Resources */,
 				3D10D8CD2245FE0E0018C8B0 /* Assets.xcassets in Resources */,
+				BC172241224A78FE00B37BDE /* RMLiteViewController.xib in Resources */,
 				BCFECCA12247D1DE00F15A3A /* Rxswift.mindnode in Resources */,
 				3D10D90D224A59E30018C8B0 /* LLVM.mindnode in Resources */,
 				3D10D8CB2245FE0C0018C8B0 /* Main.storyboard in Resources */,
@@ -451,6 +458,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D10D8F5224608E60018C8B0 /* RMViewController.swift in Sources */,
+				BC172240224A78FE00B37BDE /* RMLiteViewController.swift in Sources */,
 				3D10D8C82245FE0C0018C8B0 /* ViewController.swift in Sources */,
 				3D10D8C62245FE0C0018C8B0 /* AppDelegate.swift in Sources */,
 				3D10D9092249C4B20018C8B0 /* UIImagePickerController+RxCreate.swift in Sources */,
