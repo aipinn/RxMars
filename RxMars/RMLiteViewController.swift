@@ -12,6 +12,7 @@ import RxSwift
 
 class RMLiteViewController: UIViewController {
 
+    let disposeBag = DisposeBag()
     @IBOutlet weak var tf1: UITextField!
     @IBOutlet weak var tf2: UITextField!
     @IBOutlet weak var tf3: UITextField!
@@ -23,11 +24,10 @@ class RMLiteViewController: UIViewController {
         super.viewDidLoad()
 
         simpleAddition()
-        
     }
-
+    //一个简单的加法
     func simpleAddition() {
-        
+
         Observable.combineLatest(tf1.rx.text.orEmpty,
                                  tf2.rx.text.orEmpty,
                                  tf3.rx.text.orEmpty) { v1, v2, v3 -> Int in
@@ -35,7 +35,7 @@ class RMLiteViewController: UIViewController {
         }
             .map { $0.description }
             .bind(to: sumL.rx.text)
-            .disposed(by: DisposeBag())
+            .disposed(by: disposeBag)
     }
 
 }

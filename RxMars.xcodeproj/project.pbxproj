@@ -27,6 +27,7 @@
 		3D10D9092249C4B20018C8B0 /* UIImagePickerController+RxCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D9082249C4B20018C8B0 /* UIImagePickerController+RxCreate.swift */; };
 		3D10D90B2249C4D10018C8B0 /* UIImagePickerController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D90A2249C4D10018C8B0 /* UIImagePickerController+Rx.swift */; };
 		3D10D90D224A59E30018C8B0 /* LLVM.mindnode in Resources */ = {isa = PBXBuildFile; fileRef = 3D10D90C224A59E20018C8B0 /* LLVM.mindnode */; };
+		3D10D917224BA9D60018C8B0 /* RMGeolocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D916224BA9D60018C8B0 /* RMGeolocationService.swift */; };
 		BC172240224A78FE00B37BDE /* RMLiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC17223E224A78FE00B37BDE /* RMLiteViewController.swift */; };
 		BC172241224A78FE00B37BDE /* RMLiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC17223F224A78FE00B37BDE /* RMLiteViewController.xib */; };
 		BCFECC9C22475E1900F15A3A /* RMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFECC9A22475E1900F15A3A /* RMLoginViewController.swift */; };
@@ -77,6 +78,7 @@
 		3D10D9082249C4B20018C8B0 /* UIImagePickerController+RxCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+RxCreate.swift"; sourceTree = "<group>"; };
 		3D10D90A2249C4D10018C8B0 /* UIImagePickerController+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImagePickerController+Rx.swift"; sourceTree = "<group>"; };
 		3D10D90C224A59E20018C8B0 /* LLVM.mindnode */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LLVM.mindnode; sourceTree = "<group>"; };
+		3D10D916224BA9D60018C8B0 /* RMGeolocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGeolocationService.swift; sourceTree = "<group>"; };
 		5F0F875CDD0E4A772313F2C0 /* Pods-RxMars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMars/Pods-RxMars.debug.xcconfig"; sourceTree = "<group>"; };
 		A05A7E8963591D349F57FEF2 /* Pods-RxMars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMars.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMars/Pods-RxMars.release.xcconfig"; sourceTree = "<group>"; };
 		BC17223E224A78FE00B37BDE /* RMLiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLiteViewController.swift; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				3D10D90A2249C4D10018C8B0 /* UIImagePickerController+Rx.swift */,
 				BC17223E224A78FE00B37BDE /* RMLiteViewController.swift */,
 				BC17223F224A78FE00B37BDE /* RMLiteViewController.xib */,
+				3D10D916224BA9D60018C8B0 /* RMGeolocationService.swift */,
 			);
 			path = RxMars;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				BC172240224A78FE00B37BDE /* RMLiteViewController.swift in Sources */,
 				3D10D8C82245FE0C0018C8B0 /* ViewController.swift in Sources */,
 				3D10D8C62245FE0C0018C8B0 /* AppDelegate.swift in Sources */,
+				3D10D917224BA9D60018C8B0 /* RMGeolocationService.swift in Sources */,
 				3D10D9092249C4B20018C8B0 /* UIImagePickerController+RxCreate.swift in Sources */,
 				3D10D90B2249C4D10018C8B0 /* UIImagePickerController+Rx.swift in Sources */,
 				3D10D8FC224629600018C8B0 /* RMProductViewController.swift in Sources */,
