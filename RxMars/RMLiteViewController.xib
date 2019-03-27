@@ -12,6 +12,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RMLiteViewController" customModule="RxMars" customModuleProvider="target">
             <connections>
+                <outlet property="descL" destination="AhA-Tu-x6P" id="z8R-I7-N4Z"/>
+                <outlet property="infoL" destination="tjv-LI-y9c" id="jRB-8q-Gjb"/>
+                <outlet property="openBtn1" destination="TNx-Xj-APd" id="zDL-0G-6VP"/>
+                <outlet property="statusL" destination="7xo-WS-dVv" id="TCC-Mq-Q8Z"/>
                 <outlet property="sumL" destination="Wki-fq-hex" id="bpm-AB-YXd"/>
                 <outlet property="tf1" destination="0e4-pp-bXu" id="Pg3-1F-g0s"/>
                 <outlet property="tf2" destination="1GC-q8-JgO" id="wwB-SB-fxW"/>

@@ -30,6 +30,9 @@
 		3D10D917224BA9D60018C8B0 /* RMGeolocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D916224BA9D60018C8B0 /* RMGeolocationService.swift */; };
 		BC172240224A78FE00B37BDE /* RMLiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC17223E224A78FE00B37BDE /* RMLiteViewController.swift */; };
 		BC172241224A78FE00B37BDE /* RMLiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC17223F224A78FE00B37BDE /* RMLiteViewController.xib */; };
+		BC286C02224BC68B0026201B /* RxCLLocationManagerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC286BFF224BC68B0026201B /* RxCLLocationManagerDelegateProxy.swift */; };
+		BC286C03224BC68B0026201B /* CLLocationManager+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC286C00224BC68B0026201B /* CLLocationManager+Rx.swift */; };
+		BC286C04224BC68B0026201B /* RxImagePickerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC286C01224BC68B0026201B /* RxImagePickerDelegateProxy.swift */; };
 		BCFECC9C22475E1900F15A3A /* RMLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFECC9A22475E1900F15A3A /* RMLoginViewController.swift */; };
 		BCFECC9D22475E1900F15A3A /* RMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCFECC9B22475E1900F15A3A /* RMLoginViewController.xib */; };
 		BCFECCA12247D1DE00F15A3A /* Rxswift.mindnode in Resources */ = {isa = PBXBuildFile; fileRef = BCFECCA02247D1DE00F15A3A /* Rxswift.mindnode */; };
@@ -83,6 +86,9 @@
 		A05A7E8963591D349F57FEF2 /* Pods-RxMars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMars.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMars/Pods-RxMars.release.xcconfig"; sourceTree = "<group>"; };
 		BC17223E224A78FE00B37BDE /* RMLiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLiteViewController.swift; sourceTree = "<group>"; };
 		BC17223F224A78FE00B37BDE /* RMLiteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RMLiteViewController.xib; sourceTree = "<group>"; };
+		BC286BFF224BC68B0026201B /* RxCLLocationManagerDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxCLLocationManagerDelegateProxy.swift; sourceTree = "<group>"; };
+		BC286C00224BC68B0026201B /* CLLocationManager+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Rx.swift"; sourceTree = "<group>"; };
+		BC286C01224BC68B0026201B /* RxImagePickerDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxImagePickerDelegateProxy.swift; sourceTree = "<group>"; };
 		BCFECC9A22475E1900F15A3A /* RMLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLoginViewController.swift; sourceTree = "<group>"; };
 		BCFECC9B22475E1900F15A3A /* RMLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RMLoginViewController.xib; sourceTree = "<group>"; };
 		BCFECC9F22478ACA00F15A3A /* RxMars.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxMars.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -192,6 +198,9 @@
 				3D10D9002248DC5C0018C8B0 /* RMImagePickerViewController.swift */,
 				3D10D9012248DC5C0018C8B0 /* RMImagePickerViewController.xib */,
 				3D10D9082249C4B20018C8B0 /* UIImagePickerController+RxCreate.swift */,
+				BC286C00224BC68B0026201B /* CLLocationManager+Rx.swift */,
+				BC286BFF224BC68B0026201B /* RxCLLocationManagerDelegateProxy.swift */,
+				BC286C01224BC68B0026201B /* RxImagePickerDelegateProxy.swift */,
 				3D10D90A2249C4D10018C8B0 /* UIImagePickerController+Rx.swift */,
 				BC17223E224A78FE00B37BDE /* RMLiteViewController.swift */,
 				BC17223F224A78FE00B37BDE /* RMLiteViewController.xib */,
@@ -466,11 +475,14 @@
 				3D10D8C62245FE0C0018C8B0 /* AppDelegate.swift in Sources */,
 				3D10D917224BA9D60018C8B0 /* RMGeolocationService.swift in Sources */,
 				3D10D9092249C4B20018C8B0 /* UIImagePickerController+RxCreate.swift in Sources */,
+				BC286C04224BC68B0026201B /* RxImagePickerDelegateProxy.swift in Sources */,
 				3D10D90B2249C4D10018C8B0 /* UIImagePickerController+Rx.swift in Sources */,
 				3D10D8FC224629600018C8B0 /* RMProductViewController.swift in Sources */,
 				3D10D8FE22462AC20018C8B0 /* RMSwift.swift in Sources */,
 				3D10D9022248DC5C0018C8B0 /* RMImagePickerViewController.swift in Sources */,
 				BCFECC9C22475E1900F15A3A /* RMLoginViewController.swift in Sources */,
+				BC286C02224BC68B0026201B /* RxCLLocationManagerDelegateProxy.swift in Sources */,
+				BC286C03224BC68B0026201B /* CLLocationManager+Rx.swift in Sources */,
 				3D10D8FA224624C20018C8B0 /* RMModel.swift in Sources */,
 				3D10D8F82246244C0018C8B0 /* RMProductViewModel.swift in Sources */,
 			);
