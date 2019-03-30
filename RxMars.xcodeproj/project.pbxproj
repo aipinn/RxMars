@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		0945EC873D62F21B78919B41 /* Pods_RxMarsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27A73A8FB50872831282B62 /* Pods_RxMarsTests.framework */; };
 		31D2B30C9E83CEEA620ADF1A /* Pods_RxMars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CC3D719EB5D1A412235313 /* Pods_RxMars.framework */; };
+		3D0FB9C7224F506500B906A4 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FB9C5224F506500B906A4 /* SimpleTableViewController.swift */; };
+		3D0FB9C8224F506500B906A4 /* SimpleTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0FB9C6224F506500B906A4 /* SimpleTableViewController.xib */; };
+		3D0FB9CB224F7DDF00B906A4 /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0FB9C9224F7DDF00B906A4 /* SectionViewController.swift */; };
+		3D0FB9CC224F7DDF00B906A4 /* SectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D0FB9CA224F7DDF00B906A4 /* SectionViewController.xib */; };
 		3D10D8C62245FE0C0018C8B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8C52245FE0C0018C8B0 /* AppDelegate.swift */; };
 		3D10D8C82245FE0C0018C8B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D10D8C72245FE0C0018C8B0 /* ViewController.swift */; };
 		3D10D8CB2245FE0C0018C8B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D10D8C92245FE0C0018C8B0 /* Main.storyboard */; };
@@ -57,6 +61,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D0FB9C5224F506500B906A4 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
+		3D0FB9C6224F506500B906A4 /* SimpleTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SimpleTableViewController.xib; sourceTree = "<group>"; };
+		3D0FB9C9224F7DDF00B906A4 /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
+		3D0FB9CA224F7DDF00B906A4 /* SectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionViewController.xib; sourceTree = "<group>"; };
 		3D10D8C22245FE0C0018C8B0 /* RxMars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D10D8C52245FE0C0018C8B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D10D8C72245FE0C0018C8B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -153,6 +161,16 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3D0FB9BB224F3B8800B906A4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3D10D9082249C4B20018C8B0 /* UIImagePickerController+RxCreate.swift */,
+				BC286C00224BC68B0026201B /* CLLocationManager+Rx.swift */,
+				3D10D90A2249C4D10018C8B0 /* UIImagePickerController+Rx.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		3D10D8B92245FE0C0018C8B0 = {
 			isa = PBXGroup;
 			children = (
@@ -197,14 +215,16 @@
 				BCFECC9B22475E1900F15A3A /* RMLoginViewController.xib */,
 				3D10D9002248DC5C0018C8B0 /* RMImagePickerViewController.swift */,
 				3D10D9012248DC5C0018C8B0 /* RMImagePickerViewController.xib */,
-				3D10D9082249C4B20018C8B0 /* UIImagePickerController+RxCreate.swift */,
-				BC286C00224BC68B0026201B /* CLLocationManager+Rx.swift */,
+				3D0FB9BB224F3B8800B906A4 /* Extension */,
 				BC286BFF224BC68B0026201B /* RxCLLocationManagerDelegateProxy.swift */,
 				BC286C01224BC68B0026201B /* RxImagePickerDelegateProxy.swift */,
-				3D10D90A2249C4D10018C8B0 /* UIImagePickerController+Rx.swift */,
 				BC17223E224A78FE00B37BDE /* RMLiteViewController.swift */,
 				BC17223F224A78FE00B37BDE /* RMLiteViewController.xib */,
 				3D10D916224BA9D60018C8B0 /* RMGeolocationService.swift */,
+				3D0FB9C5224F506500B906A4 /* SimpleTableViewController.swift */,
+				3D0FB9C6224F506500B906A4 /* SimpleTableViewController.xib */,
+				3D0FB9C9224F7DDF00B906A4 /* SectionViewController.swift */,
+				3D0FB9CA224F7DDF00B906A4 /* SectionViewController.xib */,
 			);
 			path = RxMars;
 			sourceTree = "<group>";
@@ -338,6 +358,8 @@
 				3D10D8D02245FE0E0018C8B0 /* LaunchScreen.storyboard in Resources */,
 				BCFECC9D22475E1900F15A3A /* RMLoginViewController.xib in Resources */,
 				3D10D8CD2245FE0E0018C8B0 /* Assets.xcassets in Resources */,
+				3D0FB9CC224F7DDF00B906A4 /* SectionViewController.xib in Resources */,
+				3D0FB9C8224F506500B906A4 /* SimpleTableViewController.xib in Resources */,
 				BC172241224A78FE00B37BDE /* RMLiteViewController.xib in Resources */,
 				BCFECCA12247D1DE00F15A3A /* Rxswift.mindnode in Resources */,
 				3D10D90D224A59E30018C8B0 /* LLVM.mindnode in Resources */,
@@ -469,6 +491,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0FB9CB224F7DDF00B906A4 /* SectionViewController.swift in Sources */,
+				3D0FB9C7224F506500B906A4 /* SimpleTableViewController.swift in Sources */,
 				3D10D8F5224608E60018C8B0 /* RMViewController.swift in Sources */,
 				BC172240224A78FE00B37BDE /* RMLiteViewController.swift in Sources */,
 				3D10D8C82245FE0C0018C8B0 /* ViewController.swift in Sources */,

@@ -13,7 +13,7 @@ import Photos
 
 class RMImagePickerViewController: UIViewController {
 
-    let disposeBag = DisposeBag()
+    private let disposeBag = DisposeBag()
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var cameraButton: UIButton!
     @IBOutlet weak var galleryButton: UIButton!

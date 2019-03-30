@@ -24,22 +24,19 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTh-zk-lqF">
-                    <rect key="frame" x="142" y="295" width="54" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTh-zk-lqF">
+                    <rect key="frame" x="160.5" y="295" width="54" height="30"/>
                     <state key="normal" title="Camera"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6E-wL-4pX">
-                    <rect key="frame" x="145" y="342" width="48" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6E-wL-4pX">
+                    <rect key="frame" x="163.5" y="342" width="48" height="30"/>
                     <state key="normal" title="Gallery"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kvg-7T-Ts7">
-                    <rect key="frame" x="152" y="386" width="34" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kvg-7T-Ts7">
+                    <rect key="frame" x="170.5" y="386" width="34" height="30"/>
                     <state key="normal" title="Crop"/>
                 </button>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7T6-7l-95l">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7T6-7l-95l">
                     <rect key="frame" x="48" y="83" width="279" height="162"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="162" id="dcG-MH-L3M"/>
@@ -48,12 +45,18 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="fTh-zk-lqF" firstAttribute="top" secondItem="7T6-7l-95l" secondAttribute="bottom" constant="50" id="8L1-j4-7lJ"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7T6-7l-95l" secondAttribute="trailing" constant="48" id="8Oi-VM-pjz"/>
+                <constraint firstItem="s6E-wL-4pX" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="9aM-Ru-TTF"/>
                 <constraint firstItem="7T6-7l-95l" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="63" id="DkF-XS-ocf"/>
                 <constraint firstItem="7T6-7l-95l" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="48" id="Um1-FM-oHV"/>
+                <constraint firstItem="s6E-wL-4pX" firstAttribute="top" secondItem="fTh-zk-lqF" secondAttribute="bottom" constant="17" id="W5s-G6-g9U"/>
+                <constraint firstItem="Kvg-7T-Ts7" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="WfW-UK-RCH"/>
+                <constraint firstItem="fTh-zk-lqF" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="ZBx-4m-2BI"/>
+                <constraint firstItem="Kvg-7T-Ts7" firstAttribute="top" secondItem="s6E-wL-4pX" secondAttribute="bottom" constant="14" id="lFb-hZ-kmo"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <point key="canvasLocation" x="175.19999999999999" y="48.125937031484263"/>
+            <point key="canvasLocation" x="-260" y="36"/>
         </view>
     </objects>
 </document>

@@ -19,11 +19,11 @@
          Reactive wrapper for `delegate` message.
          */
         public var didFinishPickingMediaWithInfo: Observable<[String : AnyObject]> {
-            return delegate
-                .methodInvoked(#selector(UIImagePickerControllerDelegate.imagePickerController(_:didFinishPickingMediaWithInfo:)))
-                .map({ (a) in
-                    return try castOrThrow(Dictionary<String, AnyObject>.self, a[1])
-                })
+               return delegate
+                    .methodInvoked(#selector(UIImagePickerControllerDelegate.imagePickerController(_:didFinishPickingMediaWithInfo:)))
+                    .map({ (a) in
+                        return try castOrThrow(Dictionary<String, AnyObject>.self, a[1])
+                    })
         }
 
         /**

@@ -101,6 +101,11 @@ class RMViewController: UIViewController {
     @IBAction func liteAction(_ sender: Any) {
         navigationController?.pushViewController(RMLiteViewController(), animated: true)
     }
+    @IBAction func simpleTableView(_ sender: Any) {
+        navigationController?.pushViewController(SimpleTableViewController(), animated: true)
+    }
+    
+    
 }
 
 //MARK: 创建自己的被观察者Observable
