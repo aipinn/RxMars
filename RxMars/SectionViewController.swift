@@ -7,13 +7,23 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
-class SectionViewController: UIViewController {
+class SectionViewController: UIViewController, UITableViewDelegate {
+
+    @IBOutlet weak var tableView: UITableView!
+
+//    let dataSource = RxTableViewSectionedReloadDataSource<SectionModel<String, Double>>(
+//
+//    )
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
+       
+        
     }
 
 

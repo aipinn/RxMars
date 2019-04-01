@@ -11,6 +11,7 @@ pod 'SwiftyJSON'
 pod 'RxSwift'
 pod 'RxCocoa'
 pod 'Kingfisher'
+pod 'RxDataSources'
 
   target 'RxMarsTests' do
     inherit! :search_paths
