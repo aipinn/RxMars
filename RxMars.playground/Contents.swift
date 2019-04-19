@@ -181,3 +181,10 @@ rxJson
     print(i)
 }
 
+Observable.of(1,2,3,4)
+Observable.from([1,2,3,4]).map { Int($0) }
+    .filter {
+        
+        return true
+}
+
